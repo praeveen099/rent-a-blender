@@ -10,12 +10,19 @@ body {
   color:#222;
 }
 
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+
 .main-nav {
   width:100%;
   background: #6d7485;
   padding: 0.5rem;
   position:fixed;
   text-align:center;
+  color:#039BE5;
 }
 
 .nav{
@@ -24,4 +31,30 @@ body {
   justify-content: space-around;
   margin:0 auto;
   padding:0;
+}
+
+.nav .name{
+  color: white;
+  margin-right: auto;
+}
+
+.nav li{
+  padding: 0px 10px;
+}
+
+.nav a:hover{
+  color: #A9A9A9;
+}
+
+.nav .name a:visited{
+  color: white;
+}
+
+.nav a:visited{
+  color:#039BE5;
+
+}
+
+main{
+  padding-top: 50px;
 }

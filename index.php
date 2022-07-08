@@ -7,24 +7,14 @@
   <link rel ="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main>
+<?php include("heading.php");?>
     <header>
-      <div class="main-nav">
-        <ul class="nav">
-            <li class="name">Rent A Blender</li>
-            <li>Amazon</li>
-            <li>Argos</li>
-            <li>EBay</li>
-            <li>Rent</li>
-            <li>Contact Us</li>
-        </ul>
-      </div>
     </header>
 
-
-    <footer>
-
-    </footer>
+  <main>
   </main>
+  <footer>
+  </footer>
+
 </body>
 </html>
