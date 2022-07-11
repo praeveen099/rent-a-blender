@@ -31,7 +31,9 @@ a{
   justify-content: space-around;
   margin:0 auto;
   padding:0;
+  font-weight: bold;
 }
+
 
 .nav .name{
   color: white;
@@ -57,4 +59,16 @@ a{
 
 main{
   padding-top: 50px;
+}
+
+footer{
+  display:inline-block;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+.nav{
+  overflow:hidden;
+  }
+
 }
