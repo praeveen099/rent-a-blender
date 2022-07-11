@@ -11,13 +11,24 @@
 <?php include("heading.php");?>
 
   <main>
+    <?php include("blendersData.php"); ?>
+
+
     <ul class= "blendersList">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <?php
+        foreach ($blenderArray as $blender)
+        {
+          echo "<li><a href="
+                . $blender->url .
+                "><img src="
+                . $blender->imageUrl.
+                "><p>"
+                .$blender->name.
+                "</p></a></li>";
+        }
+       ?>
     </ul>
-<?php include("blendersData.php"); ?>
+
   </main>
 <?php include("footer.php");?>
 
