@@ -5,6 +5,11 @@
   margin-top: 0;
 }
 
+html, body{
+  overflow-x: hidden;
+  width:100%;
+}
+
 body{
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
@@ -23,17 +28,20 @@ a{
 
 .nav{
   list-style-type: none;
-
+  font-size:1.5rem;
   font-weight: 700;
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+  margin-right: 0;
 
 }
 
+
 .nav li{
     display: inline;
-    padding-right: 5px;
+    padding-right: 10px;
+
 
 }
 
@@ -49,5 +57,10 @@ a{
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
+
+}
+
+img{
+  max-width: 50vw;
 
 }

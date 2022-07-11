@@ -18,9 +18,9 @@
       <?php
         foreach ($blenderArray as $blender)
         {
-          echo "<li><a href="
+          echo "<li><a href='"
                 . $blender->url .
-                "><img src="
+                "' target='_blank'><img src="
                 . $blender->imageUrl.
                 "><p>"
                 .$blender->name.
