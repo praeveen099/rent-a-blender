@@ -16,16 +16,29 @@ a{
 }
 
 .main-nav{
-  background-color:  #ff66ff;
+  background-color:  #F7CED7FF;
+  width: 100%;
+  color: #616161;
 }
 
 .nav{
   list-style-type: none;
-  margin : 0;
+
+  font-weight: 700;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
 .nav li{
-    display: inline-block;
+    display: inline;
+    padding-right: 5px;
+
+}
+
+.name{
+  color: #0499FF;
+  margin-right: auto;
 
 }
