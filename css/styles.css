@@ -42,3 +42,7 @@ a{
   margin-right: auto;
 
 }
+
+.blendersList{
+  list-style: none;
+}

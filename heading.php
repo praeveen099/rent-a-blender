@@ -1,3 +1,5 @@
+<header>
+
 <div class="main-nav">
   <ul class="nav">
       <li class="name"><a href=#>Rent A Blender</a></li>
@@ -8,3 +10,5 @@
       <li><a href=#>Contact Us</a></li>
   </ul>
 </div>
+
+</header>

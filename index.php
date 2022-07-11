@@ -9,14 +9,17 @@
 </head>
 <body>
 <?php include("heading.php");?>
-    <header>
-    </header>
 
   <main>
+    <ul class= "blendersList">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+<?php include("blendersData.php"); ?>
   </main>
-  <footer>
-    <p class = "Copyright">&copy; <a href = "https://github.com/praeveen099"> Praeveen Ganesharaja </a> <?php echo date("Y"); ?> </p>
-  </footer>
+<?php include("footer.php");?>
 
 </body>
 </html>
