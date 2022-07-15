@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--  <link rel ="stylesheet" href="css/style.css"> -->
   <link rel ="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
 <?php include("heading.php");?>
@@ -21,9 +22,11 @@
           echo "<li><a href='"
                 . $blender->url .
                 "' target='_blank'><img src="
-                . $blender->imageUrl.
-                "><p>"
-                .$blender->name.
+                . $blender->imageUrl .
+                " alt ='"
+                . $blender->name .
+                "'><p>"
+                . $blender->name .
                 "</p></a></li>";
         }
        ?>

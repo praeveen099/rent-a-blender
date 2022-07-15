@@ -23,7 +23,7 @@ $blenderArray[] = new Blender("Ninja BN750UK Auto IQ Multi Serve Blender", "http
 $blenderArray[] = new Blender("Ninja QB3001UKS Slim Blender and Smoothie Maker", "https://www.argos.co.uk/product/1956926","./images/NinjaSlimAndSmoothieBlender.webp");
 $blenderArray[] = new Blender("Nutribullet 900 Series Nutritional Blender", "https://www.argos.co.uk/product/6525675","./images/NutribulletBlender.webp");
 $blenderArray[] = new Blender("NutriBullet Blender Combo", "https://www.argos.co.uk/product/8530455","./images/NutribulletComboOfBlenders.webp");
-$blenderArray[] = new Blender("Philips Series 500 ProBlend Blender - Stainless Steel", "https://www.arg0os.co.uk/product/7482951","./images/PhilipsStainlessSteelBlender.webp");
+$blenderArray[] = new Blender("Philips Series 500 ProBlend Blender - Stainless Steel", "https://www.argos.co.uk/product/7482951","./images/PhilipsStainlessSteelBlender.webp");
 $blenderArray[] = new Blender("Tefal BL82AD40 Perfect Mix Tritan Blender", "https://www.argos.co.uk/product/3034028","./images/TefalTritanBlender.webp");
 
 

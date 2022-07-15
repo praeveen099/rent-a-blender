@@ -64,3 +64,5 @@ img{
   max-width: 50vw;
 
 }
+
+.blur { filter: blur(5px); }
