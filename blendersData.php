@@ -27,4 +27,18 @@ $blenderArray[] = new Blender("Philips Series 500 ProBlend Blender - Stainless S
 $blenderArray[] = new Blender("Tefal BL82AD40 Perfect Mix Tritan Blender", "https://www.argos.co.uk/product/3034028","./images/TefalTritanBlender.webp");
 
 
+function getWholeBlenderArray()
+{
+  include("connect.php");
+  $query = "Select * FROM Blender";
+
+  $results = $db->query($query);
+  if (!$results)
+  {
+    die("Fatal Error");
+  }
+}
+
+
+
  ?>
