@@ -1,4 +1,5 @@
 <?php
+/*
 class Blender
 {
    public $name = "";
@@ -26,7 +27,7 @@ $blenderArray[] = new Blender("NutriBullet Blender Combo", "https://www.argos.co
 $blenderArray[] = new Blender("Philips Series 500 ProBlend Blender - Stainless Steel", "https://www.argos.co.uk/product/7482951","./images/PhilipsStainlessSteelBlender.webp");
 $blenderArray[] = new Blender("Tefal BL82AD40 Perfect Mix Tritan Blender", "https://www.argos.co.uk/product/3034028","./images/TefalTritanBlender.webp");
 
-
+*/
 function getWholeBlenderArray()
 {
   include("connect.php");
@@ -37,6 +38,8 @@ function getWholeBlenderArray()
   {
     die("Fatal Error");
   }
+
+  return $results;
 }
 
 

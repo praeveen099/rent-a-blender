@@ -14,23 +14,28 @@
   <main>
     <?php include("blendersData.php"); ?>
 
-
     <ul class= "blendersList">
       <?php
-        foreach ($blenderArray as $blender)
+        $listOfBlenders = getWholeBlenderArray();
+        $lengthOfQuery = $listOfBlenders->num_rows;
+        for ($j = 0; $j < $lengthOfQuery; $j++)
         {
-          echo "<li><a href='"
-                . $blender->url .
-                "' target='_blank'><img src="
-                . $blender->imageUrl .
-                " alt ='"
-                . $blender->name .
-                "'><p>"
-                . $blender->name .
-                "</p></a></li>";
+         $row = $listOfBlenders->fetch_assoc();
+         echo "<li><a href='"
+              . $row["url"] .
+              "' target='_blank'><img src="
+              . $row["image_reference"] .
+              " alt ='"
+              . $row["name"] .
+              "'><p>"
+              . $row["name"] .
+              "</p></a></li>";
+
         }
+
        ?>
     </ul>
+
 
   </main>
 <?php include("footer.php");?>
